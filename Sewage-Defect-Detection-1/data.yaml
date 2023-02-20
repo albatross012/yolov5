@@ -1,0 +1,18 @@
+names:
+- Buckling
+- Crack
+- Debris
+- Hole
+- Joint offset
+- Obstacle
+- Utility intrusion
+nc: 7
+roboflow:
+  license: CC BY 4.0
+  project: sewage-defect-detection
+  url: https://universe.roboflow.com/project/sewage-defect-detection/dataset/1
+  version: 1
+  workspace: project
+test: ../test/images
+train: Sewage-Defect-Detection-1/train/images
+val: Sewage-Defect-Detection-1/valid/images
